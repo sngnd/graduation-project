@@ -45,7 +45,6 @@ const Header = () => {
             openInNewTab={true}
             externalLink={true}
             color={colors.GRAY}
-            hoverColor={colors.WHITE}
           >
             {data?.photos[0].photographer}
           </NavigationLink>

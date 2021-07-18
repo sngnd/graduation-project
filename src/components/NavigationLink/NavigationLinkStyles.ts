@@ -15,7 +15,4 @@ export const InternalLink = styled(NavLink)`
 
 export const ExternalLink = styled.a`
   ${commonLinkStyles}
-  &:hover {
-    color: ${({ hoverColor }: INavigationLinkProps) => hoverColor};
-  }
 `;

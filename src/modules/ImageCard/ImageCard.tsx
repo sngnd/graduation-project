@@ -29,7 +29,6 @@ const ImageCard = ({ image }: IImageCardProps) => {
       <img src={image.src.portrait} alt="something" width="100%" />
       <StyledNavigationLink
         color={colors.GRAY}
-        hoverColor={colors.WHITE}
         externalLink={true}
         openInNewTab={true}
         href={image.photographer_url}

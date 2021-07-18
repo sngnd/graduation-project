@@ -38,7 +38,6 @@ const NavBar = () => {
         externalLink={true}
         openInNewTab={true}
         color={colors.WHITE}
-        hoverColor={colors.GRAY}
       >
         <StyledMainIcon />
         <StyledText variant="p" color={colors.WHITE}>
