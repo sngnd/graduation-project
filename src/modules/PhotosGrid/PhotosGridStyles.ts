@@ -81,14 +81,17 @@ export const Loader = styled.div`
   position: relative;
   width: 80px;
   height: 40px;
-  position: absolute;
-  top: 0px;
-  width: 13px;
-  height: 13px;
-  border-radius: 50%;
-  background: black;
-  -webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0);
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+
+  & div {
+    position: absolute;
+    top: 0px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: black;
+    -webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
 
   & div:nth-child(1) {
     left: 8px;
